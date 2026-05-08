@@ -22,15 +22,58 @@ This repository focuses on the analytical side of biomedical engineering: from r
      * Identification of critical vibrational peaks affecting passenger fatigue and comfort.
 
      * Data-driven evaluation of the newer M4 line's performance compared to legacy infrastructure.
+  <br>
 
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center">
+        <img src="Images/blu_freq.png" width="70%" alt="Blu line Frequency">
+        <br>
+        <em>Blu Line</em>
+      </td>
+      <td align="center">
+        <img src="Images/rossa_freq.png" width="65%" alt="Red line Frequency">
+        <br>
+        <em>Red Line</em>
+      </td>
+      <td align="center">
+        <img src="Images/verde_freq.png" width="65%" alt="Green line Frequency">
+        <br>
+        <em>Green Line</em>
+    </tr>
+  </table>
+</div>
+
+<div align="center">
+  <br>
+  <p align="center">
+    <em><strong>Figure 1:</strong> The Spectrum of z-acceleration of the three metro lines investigated.</em>
+  </p>
+</div>
+The analysis of the acceleration spectrum along the z-axis is essential to analyze the discomfort experienced in each line. The highest magnitudes of the peaks and the range of frequencies within are located, lead to the conclusion that the green and red line seem to be less comfortable with respect the new Blu line (M4).
+<br>
 **2. Human Gait Analysis & Classification**
 * Analysis of kinematic data to characterize human walking patterns and identify anomalies.
+<br>
+<div align="center">
+  <img src="./Images/walking activity .jpg" width="300" alt="Walking activity">
+  <br>
+  <em><strong>Figure 2:</strong> Acceleration along the z axis of Subject 2</em>
+</div> 
 
 * Gait Cycle Detection: Identification of heel strike, stance, and swing phases from accelerometer/gyroscopic data.
+<br>
+<div align="center">
+  <img src="./Images/walk cycle.png" width="300" alt="Walk cycle">
+  <br>
+  <em><strong>Figure 2:</strong> Phases of the Walk cycle </em>
+</div> 
 
 * Feature Extraction: Calculation of spatio-temporal parameters (cadence, step length, symmetry).
 
 * Automatic Classification: Implemented a K-NN (K-Nearest Neighbors) algorithm to classify different gait patterns or activities, optimizing accuracy through training/test matrix validation.
+<br>
 
 **3. Structural Health Monitoring: Lower Limb Prosthesis**
 * Data processing for the maintenance and safety of prosthetic components.
@@ -40,6 +83,7 @@ This repository focuses on the analytical side of biomedical engineering: from r
 * Energy Dissipation: Calculate the Hysteresis Area and Relative Hysteresis Area to evaluate material fatigue.
 
 * Linear Modeling: Fitted regression models to predict component behavior under cyclic loading.
+<br>
 
 **4. Physiological Signal Extraction from Chest Movements**
 * Objective: Non-invasive estimation of respiratory and cardiac parameters.
